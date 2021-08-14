@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    background: linear-gradient(to left, #ffcc99 0%, #cc3300 100%)
+}
+
+header > div.right-logo >img {
+    float: left;
+    width: 250px;
+    height: 150px;
+}
+header > div.left-content {
+    float: right;
+    padding-left: 65%;
+    padding-top: 2%;
+}
+header > div.left-content >a {
+    padding: 10px;
+}
+
+section >div.nav-bar  {
+    background-color: #cc3300;
+    width: 100%;
+    padding: 15px;
+}
+section >div.nav-bar>a {
+    color:white;
+    padding: 8px;
+}
+section >div.nav-bar>a:hover{
+    color: greenyellow;
+}
+section >h2 {
+    color: #cc3300;
+    padding-top: 10px;
+    font-style: italic;
+}
+section > div.mid-content {
+    display: inline-flex;
+}
+section >div.mid-content >div.row{
+    display: grid;
+    padding: 15px;
+}
+section >div.mid-content >div.row>div.column>img{
+    width:250px;
+    height: 150px;
+    padding: 10px;
+}
+section >div.mid-content>div.row >div.menu >a{
+    display: block;
+    padding: 5px;
+}
+section > div.Indroduction {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section > div.Indroduction > h2{
+    color: brown;
+    font-style: italic;
+}
+footer {
+    background-color: brown;
+    text-align: center;
+}
+footer>p {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
